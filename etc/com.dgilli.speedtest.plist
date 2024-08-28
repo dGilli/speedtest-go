@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dgilli.speedtest</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-c</string>
+            <string>/Users/dennisgilli/.local/bin/speedtest >> /Users/dennisgilli/projects/speedtest-go/data/data.txt</string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>21600</integer> <!-- 6 hours in seconds -->
+
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
+
